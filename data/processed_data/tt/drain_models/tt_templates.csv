@@ -1,0 +1,96 @@
+template_id,template,count
+12,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - GET,2932
+50,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - queryForStationId,1086
+54,<:DATATIME:> INFO 1 --- <:EXEC:> travel.service.TravelServiceImpl : Routes <:RESPONSE:>),922
+55,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - queryById,922
+56,<:DATATIME:> INFO 1 --- <:EXEC:> travel.service.TravelServiceImpl : Route is: <:ROUTE:>,922
+53,<:DATATIME:> INFO 1 --- <:EXEC:> route.controller.RouteController : Route id: <:UUID:>,921
+52,<:DATATIME:> INFO 1 --- <:EXEC:> travel.service.TravelServiceImpl : [Travel Service][Get Route By Id] Route ID：<:UUID:>,920
+15,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - securityInfoCheck,368
+49,<:DATATIME:> INFO 1 --- <:EXEC:> f.microservice.service.BasicServiceImpl : [Basic Information Service][Query For Station Id] <:STATION_ID:>,364
+51,<:DATATIME:> INFO 1 --- <:EXEC:> travel.service.TravelServiceImpl : Query for Station id is: <:RESPONSE:>),364
+1,<:DATATIME:> INFO 1 --- <:EXEC:> contacts.controller.ContactsController : [Contacts Service][Find Contacts By Account Id: <:UUID:>,187
+2,<:DATATIME:> INFO 1 --- <:EXEC:> contacts.controller.ContactsController : <:EXEC:><:EXEC:> Success,187
+3,<:DATATIME:> INFO 1 --- <:EXEC:> contacts.service.ContactsServiceImpl : <:EXEC:><:EXEC:> Result Size: 2,187
+4,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - findContactsByAccountId,187
+5,<:DATATIME:> INFO 1 --- <:EXEC:> preserve.controller.PreserveController : [Preserve Service]<:EXEC:> Account order from Shang Hai -----> Su Zhou at Thu Apr 08 08:00:00 CST 2021,187
+6,<:DATATIME:> INFO 1 --- <:EXEC:> preserve.service.PreserveServiceImpl : [Preserve Service] [Step 1] Check Security,187
+7,<:DATATIME:> INFO 1 --- <:EXEC:> preserve.service.PreserveServiceImpl : [Preserve Other Service][Check Security] Checking....,187
+17,<:DATATIME:> INFO 1 --- <:EXEC:> security.service.SecurityServiceImpl : [Security Service][Get Order Other Info For Security] Last One Hour: 0 Total Valid Order: 0,186
+18,<:DATATIME:> INFO 1 --- <:EXEC:> security.service.SecurityServiceImpl : [Security Service][Get Security Config Info],186
+19,<:DATATIME:> INFO 1 --- <:EXEC:> security.service.SecurityServiceImpl : [Security Service] Max In One Hour: 2147483647 Max Not Use: 2147483647,186
+24,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - check,186
+32,<:DATATIME:> INFO 1 --- <:EXEC:> order.service.OrderServiceImpl : [Order Service][Query Order] Get order num: 6,186
+33,<:DATATIME:> INFO 1 --- <:EXEC:> order.service.OrderServiceImpl : [Order Service][Query Order][Step 1] Get Orders Number of Account: 6,186
+40,<:DATATIME:> INFO 1 --- <:EXEC:> auth.service.impl.TokenServiceImpl : <:LOGIN_USER:>,186
+41,<:DATATIME:> INFO 1 --- <:EXEC:> v.controller.VerifyCodeController : receivedCode AAAA,186
+42,<:DATATIME:> INFO 1 --- <:EXEC:> v.service.impl.VerifyCodeServiceImpl : GET Code By cookieId <:*:> is :AAAA,186
+43,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - verifyCode,186
+57,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - queryInfo,186
+58,<:DATATIME:> INFO 1 --- <:EXEC:> a.controller.AssuranceController : [Assurances Service][Get Assurance Type],186
+59,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - getAllAssuranceType,186
+31,<:DATATIME:> INFO 1 --- <:EXEC:> order.controller.OrderController : [Order Other Service][Query Orders] Query Orders for <:UUID:>,185
+48,<:DATATIME:> INFO 1 --- <:EXEC:> travel.controller.TravelController : [Travel Service] Query Trip<:RESPONSE:>,185
+11,<:DATATIME:> INFO 1 --- <:EXEC:> order.controller.OrderController : [Order Other Service][Security Info Get] <:UUID:>,184
+16,<:DATATIME:> INFO 1 --- <:EXEC:> other.controller.OrderOtherController : [Order Other Service][Security Info Get],184
+20,<:DATATIME:> INFO 1 --- <:EXEC:> preserve.service.PreserveServiceImpl : [Preserve Service] [Step 1] Check Security Complete,184
+21,<:DATATIME:> INFO 1 --- <:EXEC:> preserve.service.PreserveServiceImpl : [Preserve Service] [Step 2] Find contacts,184
+22,<:DATATIME:> INFO 1 --- <:EXEC:> preserve.service.PreserveServiceImpl : [Preserve Service] [Step 2] Contacts Id: <:UUID:>,184
+23,<:DATATIME:> INFO 1 --- <:EXEC:> preserve.service.PreserveServiceImpl : [Preserve Other Service][Get Contacts By Id] Getting....,184
+26,<:DATATIME:> INFO 1 --- <:EXEC:> contacts.service.ContactsServiceImpl : FIND CONTACTS BY ID: <:UUID:>,184
+27,<:DATATIME:> INFO 1 --- <:EXEC:> contacts.controller.ContactsController : <:EXEC:>[Contacts Id Print] <:UUID:>,184
+28,<:DATATIME:> INFO 1 --- <:EXEC:> contacts.controller.ContactsController : <:EXEC:><:EXEC:> Success.,184
+8,<:DATATIME:> INFO 1 --- <:EXEC:> security.service.SecurityServiceImpl : [Security Service][Get Order Num Info],183
+9,<:DATATIME:> INFO 1 --- <:EXEC:> security.controller.SecurityController : [Security Service][Check Security] Check Account Id: <:UUID:>,183
+10,<:DATATIME:> INFO 1 --- <:EXEC:> security.service.SecurityServiceImpl : [Security Service][Get Order Info For Security] Getting....,183
+29,<:DATATIME:> INFO 1 --- <:EXEC:> preserve.service.PreserveServiceImpl : [Preserve Service][Get Contacts] Fail. No contacts according to contacts id,183
+30,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - preserve,183
+35,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - POST,183
+36,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - queryOrdersForRefresh,183
+38,<:DATATIME:> INFO 1 --- <:EXEC:> v.service.impl.VerifyCodeServiceImpl : AAAA ___ st,183
+39,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - imageCode,183
+13,<:DATATIME:> INFO 1 --- <:EXEC:> security.service.SecurityServiceImpl : [Security Service][Get Order Info For Security] Last One Hour: 0 Total Valid Order: 6,182
+14,<:DATATIME:> INFO 1 --- <:EXEC:> security.service.SecurityServiceImpl : [Security Service][Get Order Other Info For Security] Getting....,182
+25,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - getContactsByContactsId,182
+34,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - queryForNameBatch,182
+37,<:DATATIME:> INFO 1 --- <:EXEC:> order.service.OrderServiceImpl : Name List is: <:RESPONSE:>),182
+44,<:DATATIME:> INFO 1 --- <:EXEC:> auth.security.UserDetailsServiceImpl : UsernamePasswordAuthenticationToken <:username:>,182
+45,<:DATATIME:> INFO 1 --- <:EXEC:> auth.service.impl.TokenServiceImpl : <:JWT:> TOKEN,182
+46,<:DATATIME:> INFO 1 --- <:EXEC:> auth.service.impl.TokenServiceImpl : <:UUID:> USER ID,182
+47,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: <:*:> - getToken,182
+67,<:DATATIME:> INFO 1 --- <:EXEC:> o.apache.http.impl.execchain.RetryExec : Retrying request to <:*:>,9
+78,<:DATATIME:> INFO 1 --- <:EXEC:> o.apache.http.impl.execchain.RetryExec : I/O exception (java.net.SocketException) caught when processing request to <:*:> Connection reset,5
+66,<:DATATIME:> INFO 1 --- <:EXEC:> o.apache.http.impl.execchain.RetryExec : I/O exception (java.net.NoRouteToHostException) caught when processing request to <:*:> No route to host (Host unreachable),3
+84,<:DATATIME:> INFO 1 --- [ity-mongo:27017] org.mongodb.driver.cluster : Exception in monitor thread while connecting to server ts-security-mongo:27017,2
+90,<:DATATIME:> INFO 1 --- <:EXEC:> org.mongodb.driver.connection : Closed connection <:*:> <:*:> to ts-station-mongo:27017 because there was a socket exception raised on another connection from this pool.,2
+60,<:DATATIME:> INFO 1 --- [vel-mongo:27017] org.mongodb.driver.cluster : Exception in monitor thread while connecting to server ts-travel-mongo:27017,1
+61,"<:DATATIME:> INFO 1 --- <:EXEC:> org.mongodb.driver.cluster : No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=STANDALONE, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=ts-travel-mongo:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketTimeoutException: connect timed out}}]}. Waiting for 30000 ms before timing out",1
+62,"<:DATATIME:> INFO 1 --- [vel-mongo:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:12, serverValue:659}] to ts-travel-mongo:27017",1
+63,"<:DATATIME:> INFO 1 --- [vel-mongo:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=ts-travel-mongo:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 5]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, roundTripTimeNanos=415753081}",1
+64,"<:DATATIME:> INFO 1 --- <:EXEC:> org.mongodb.driver.connection : Closed connection [connectionId{localValue:9, serverValue:658}] to ts-travel-mongo:27017 because there was a socket exception raised on another connection from this pool.",1
+65,"<:DATATIME:> INFO 1 --- <:EXEC:> org.mongodb.driver.connection : Opened connection [connectionId{localValue:13, serverValue:660}] to ts-travel-mongo:27017",1
+68,"<:DATATIME:> INFO 1 --- [cts-mongo:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:23, serverValue:17}] to ts-contacts-mongo:27017",1
+69,"<:DATATIME:> INFO 1 --- <:EXEC:> org.mongodb.driver.connection : Closed connection [connectionId{localValue:22, serverValue:16}] to ts-contacts-mongo:27017 because there was a socket exception raised on another connection from this pool.",1
+70,"<:DATATIME:> INFO 1 --- [ser-mongo:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:4, serverValue:4}] to ts-user-mongo:27017",1
+71,"<:DATATIME:> INFO 1 --- [ain-mongo:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:6, serverValue:6}] to ts-train-mongo:27017",1
+72,<:DATATIME:> INFO 1 --- [der-mongo:27017] org.mongodb.driver.cluster : Exception in monitor thread while connecting to server ts-order-mongo:27017,1
+73,"<:DATATIME:> INFO 1 --- [der-mongo:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:22, serverValue:20}] to ts-order-mongo:27017",1
+74,"<:DATATIME:> INFO 1 --- [der-mongo:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=ts-order-mongo:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 5]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, roundTripTimeNanos=373660}",1
+75,"<:DATATIME:> INFO 1 --- [der-mongo:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:24, serverValue:22}] to ts-order-mongo:27017",1
+76,"<:DATATIME:> INFO 1 --- <:EXEC:> org.mongodb.driver.connection : Closed connection [connectionId{localValue:23, serverValue:21}] to ts-order-mongo:27017 because there was a socket exception raised on another connection from this pool.",1
+77,"<:DATATIME:> INFO 1 --- <:EXEC:> org.mongodb.driver.connection : Opened connection [connectionId{localValue:27, serverValue:25}] to ts-order-mongo:27017",1
+79,<:DATATIME:> INFO 1 --- [her-mongo:27017] org.mongodb.driver.cluster : Exception in monitor thread while connecting to server ts-order-other-mongo:27017,1
+80,"<:DATATIME:> INFO 1 --- [her-mongo:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:14, serverValue:13}] to ts-order-other-mongo:27017",1
+81,"<:DATATIME:> INFO 1 --- [her-mongo:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=ts-order-other-mongo:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 5]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, roundTripTimeNanos=841877217}",1
+82,"<:DATATIME:> INFO 1 --- [fig-mongo:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:6, serverValue:6}] to ts-config-mongo:27017",1
+83,"<:DATATIME:> INFO 1 --- <:EXEC:> org.mongodb.driver.connection : Opened connection [connectionId{localValue:11, serverValue:11}] to ts-security-mongo:27017",1
+85,"<:DATATIME:> INFO 1 --- [ity-mongo:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:12, serverValue:12}] to ts-security-mongo:27017",1
+86,"<:DATATIME:> INFO 1 --- [ity-mongo:27017] org.mongodb.driver.cluster : Monitor thread successfully connected to server with description ServerDescription{address=ts-security-mongo:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 4, 5]}, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, roundTripTimeNanos=655845501}",1
+87,"<:DATATIME:> INFO 1 --- <:EXEC:> org.mongodb.driver.cluster : No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=STANDALONE, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=ts-security-mongo:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message}, caused by {java.net.SocketTimeoutException: Read timed out}}]}. Waiting for 30000 ms before timing out",1
+88,"<:DATATIME:> ERROR 1 --- <:EXEC:> o.a.c.c.C.[.[.[/].<:EXEC:> : Servlet.service() for servlet <:EXEC:> in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.client.ResourceAccessException: I/O error on POST request for ""http://ts-station-service:12345/api/v1/stationservice/stations/namelist"": ts-station-service:12345 failed to respond; nested exception is org.apache.http.NoHttp<:RESPONSE:>",1
+89,<:DATATIME:> INFO 1 --- <:EXEC:> i.j.internal.reporters.LoggingReporter : Span reported: 1d0258ce63bd28e3:e6c40a10ee721e5a:1d0258ce63bd28e3:1 - error,1
+91,"<:DATATIME:> INFO 1 --- <:EXEC:> org.mongodb.driver.connection : Opened connection [connectionId{localValue:5, serverValue:5}] to ts-station-mongo:27017",1
+92,"<:DATATIME:> INFO 1 --- [el2-mongo:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:5, serverValue:5}] to ts-travel2-mongo:27017",1
+93,<:DATATIME:> INFO 1 --- [ute-mongo:27017] org.mongodb.driver.cluster : Exception in monitor thread while connecting to server ts-route-mongo:27017,1
+94,"<:DATATIME:> INFO 1 --- [ute-mongo:27017] org.mongodb.driver.connection : Opened connection [connectionId{localValue:18, serverValue:17}] to ts-route-mongo:27017",1
+95,<:DATATIME:> INFO 1 --- <:EXEC:> o.apache.http.impl.execchain.RetryExec : I/O exception (org.apache.http.NoHttp<:RESPONSE:>) caught when processing request to {}->http://ts-ticketinfo-service:15681: The target server failed to respond,1

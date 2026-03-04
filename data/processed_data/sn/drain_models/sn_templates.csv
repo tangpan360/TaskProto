@@ -1,0 +1,14 @@
+template_id,template,count
+4,<:DATATIME:> <error>: (SocialGraphHandler.h:544:GetFollowers) ZADD: no key specified,3676
+1,<:DATATIME:> <warning>: (UserHandler.h:311:RegisterUser) User jack already existed.,2027
+2,<:DATATIME:> <warning>: (UserHandler.h:311:RegisterUser) User aaa already existed.,1950
+3,<:DATATIME:> <error>: (SocialGraphHandler.h:688:GetFollowees) ZADD: no key specified,1910
+5,<:DATATIME:> <error>: (HomeTimelineHandler.h:96:WriteHomeTimeline) Failed to get followers from social-network-service,1784
+6,<:DATATIME:> <error>: (ComposePostHandler.h:353:_UploadHomeTimelineHelper) Failed to write home timeline to home-timeline-service,1782
+7,<:DATATIME:> <warning>: (SocialGraphHandler.h:549:GetFollowers) user_id: 1185001308956233728 not found,3
+12,<:DATATIME:> <error>: (UserTimelineHandler.h:115:WriteUserTimeline) Failed to update user-timeline for user 1185001308956233728 to MongoDB: No suitable servers found: `serverSelectionTimeoutMS` expired,2
+8,<:DATATIME:> <error>: (SocialGraphHandler.h:189:operator()) Failed to update social graph for user 1185001308956200960 to MongoDB: Failed to connect to target host: social-graph-mongodb:27017,1
+9,"<:DATATIME:> <warning>: (SocialGraphHandler.h:255:Follow) TException - service has thrown: ServiceException(errorCode=SE_MONGODB_ERROR, message=Failed to connect to target host: social-graph-mongodb:27017)",1
+10,<:DATATIME:> <error>: (SocialGraphHandler.h:804:operator()) Failed to get user_id from user-service,1
+11,<:DATATIME:> <warning>: (SocialGraphHandler.h:817:FollowWithUsername) No more data to read.,1
+13,<:DATATIME:> <error>: (UserTimelineHandler.h:148:WriteUserTimeline) Failed to get reply: Connection reset by peer,1
